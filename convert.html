@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Info Page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="nav-wrapper" id="top">
+    <nav id="navbar">
+        <div class="navBar">
+            <ul>
+                <li class=""><a href="index.html">Home</a></li>
+                <li class=""><a href="convert.html">Converter</a></li>
+                <li class=" "><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</div>
+
+<br>
+<br>
+<br>
+
+
+    <div class="personalInfo" id="about">
+        <div class="wrapper">
+            <div class="pt5"></div>
+            <h1 class="infoHead">Converter</h1>
+            <div class="mt"></div>
+
+            <div class="selectedC colorWhite">
+                <p class="boldF">Selected Currency
+                <span id="sc" > </span>
+                </p>
+            </div>
+
+            <div class="convert">
+                <form action="">
+                    <div class="currency mt">
+                        <div class="cHead">BDT</div>
+                        <input type="number" oninput="BDT()" id="BDTC" class="fw">
+                    </div>
+                    <div class="currency mt" >
+                        <div class="cHead">USD</div>
+                        <input type="number" oninput="USD()" id="USDC" class="fw">
+                    </div>
+                    <div class="currency mt">
+                        <div class="cHead">CAD</div>
+                        <input type="number" oninput="CAD()" id="CADC" class="fw">
+                    </div>
+                    <div class="currency mt">
+                        <div class="cHead">EUR</div>
+                        <input type="number" oninput="EUR()" id="EURC" class="fw">
+                    </div>
+                    <div class="currency mt">
+                        <div class="cHead">GBP</div>
+                        <input type="number" oninput="GBP()" id="GBPC" class="fw">
+                    </div>
+                </form>
+            </div>
+
+            <div class="pt5"></div>
+        </div>
+    </div>
+
+<!--<form action="" method="post">-->
+<!--    <input type="number" oninput="change()" id="asd">-->
+<!--</form>-->
+<!--<script >-->
+<!--    function change() {-->
+<!--        var text = document.getElementById("asd").value;-->
+<!--        alert(text);-->
+<!--    }-->
+<!--</script>-->
+    <script src="js/script.js"></script>
+</body>
+</html>

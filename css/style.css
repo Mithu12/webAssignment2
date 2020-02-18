@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #b6050d;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #fffd3d;
+    text-decoration:none;
+    cursor:pointer;
+}
+.mt{
+    margin-top: 20px;
+}
+.mt3{
+    margin-top: 30px;
+}
+.mt5{
+    margin-top: 50px;
+}
+.pt{
+    padding-top:  20px;
+}
+.pt5{
+    padding-top:  50px;
+}
+ul{
+    list-style-type: none;
+}
+.tc{
+    text-align: center;
+}
+
+
+.headStyle{
+    text-align: center;
+    background: #fff;
+    font-size: 60px;
+}
+.wrapper{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+	width:100%
+} 
+ 
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+
+#about{
+    background: black;
+
+}
+.spaceText{
+    visibility: hidden;
+}
+.personalInfo{
+    background: black;
+    text-align: center;
+}
+.infoHead{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.infoName{
+    color: #a52a2a;
+    font-size: 30px;
+}
+.infoDetails,.infoDetails1{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.cHead{
+    color: white;
+}
+.fw{
+    width: 300px;
+    height: 30px;
+}
+.colorWhite{
+    color: #fff;
+}
+.boldF{
+    font-weight: bold;
+    font-size: 30px;
+}
+#sc,#amount{
+    background: #15151a;
+    color: #fff;
+}
+
+/*quizpart*/
+.qzStart{
+    font-size: 30px;
+}
+#qzStartBtn{
+    color: #111111;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.hid{
+    display: none;
+}
+#nextQs{
+    width: 50%;
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    background-color: #007bff;
+    cursor: pointer;
+    margin-left: 25%;
+}
+#nextQs2{
+    width: 50%;
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    background-color: #007bff;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+
+
+

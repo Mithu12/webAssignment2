@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Info Page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="nav-wrapper" id="top">
+    <nav id="navbar">
+        <div class="navBar">
+            <ul>
+                <li class=""><a href="index.html">Home</a></li>
+                <li class=""><a href="convert.html">Converter</a></li>
+                <li class=" "><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</div>
+
+<br>
+<br>
+<br>
+<div class=" " id="about">
+    <div class="wrapper">
+        <div class="pt5"></div>
+        <div class="tc">
+            <h1 class="infoHead">Quiz</h1>
+        </div>
+        <div class="mt"></div>
+
+        <div class="selectedC colorWhite" id="qnumSelect">
+            <form action="">
+            <p class="boldF" id="totalQuestions">Select Number of questions :
+                <input type="number" min="5" max="20" id="qnum" value="5">
+            </p>
+                <div class="mt5"></div>
+                <div class="qzStart tc" id="">
+                    <a href="#quiz" onclick="generateQuiz()" id="qzStartBtn">Start Quiz</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="quiz hid" id="quizs">
+            <form action="">
+                <div class="currency mt cHead">
+
+                    <div id="qNO" class="boldF"></div>
+
+                    <div id="question"> </div>
+
+                    <p>
+                    <label>
+                        <input type="radio" name="qop1"  value="1" class="" id="rb1">
+                        <b class="opNo">A.</b>
+                        <span id="op1"></span>
+                    </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input type="radio" name="qop1"  value="1" class="" id="rb2">
+                        <b class="opNo">B.</b>
+                        <span id="op2"></span>
+                    </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input type="radio" name="qop1"  value="1" class="" id="rb3">
+                        <b class="opNo">C.</b>
+                        <span id="op3"></span>
+                    </label>
+                    </p>
+
+                </div>
+                <div class="nextBtn tc">
+
+                <p href="" id="nextQs" onclick="generateQuestions()">Next</p>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="pt5"></div>
+
+
+
+
+
+        <div id="finalResult" class="hid">
+            <div class="tc">
+                <h1 class="infoHead">Your Result</h1>
+
+            </div>
+            <div id="result" class="colorWhite">
+
+            </div>
+            <div class="mt"></div>
+            <div class="nextBtn tc">
+                <a href="quiz.html" id="nextQs2">Take Another Quiz</a>
+            </div>
+            <div class="pt5"></div>
+        </div>
+    </div>
+</div>
+<script src="js/quiz.js"></script>
+</body>
+</html>
