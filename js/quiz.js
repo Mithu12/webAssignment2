@@ -166,8 +166,13 @@ let selected=[],num;
 // console.log(questions[0]);
 let currentQ=-1,score=0;
 function generateQuiz() {
-    document.getElementById('quizs').classList.remove("hid");
     num = document.getElementById('qnum').value;
+    if(num>20 || num<1){
+        alert("select Question Number Between 1 to 20")
+        return;
+    }
+    document.getElementById('quizs').classList.remove("hid");
+    
     document.getElementById('totalQuestions').innerHTML = "Total Questions : "+num;
     document.getElementById('qzStartBtn').classList.add("hid");
     for (let i=0; i<num; i++)
